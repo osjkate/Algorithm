@@ -85,15 +85,22 @@ print(reduce_lambda)
 print(filter_lambda)
 print()
 
-n = int(input())
-data = list(map(int, input().split()))
-data.sort(reverse=True)
-print(data)
-print()
+# 입력
+# n = int(input())
+# data = list(map(int, input().split()))
+# data.sort(reverse=True)
+# print(data)
+# print()
+#
+# data = sys.stdin.readline().rstrip()
+# print(data)
+# print()
 
-data = sys.stdin.readline().rstrip()
-print(data)
-print()
-
+# 출력
 answer = 9
 print(f"정답은 {answer}입니다.")
+print()
+
+# sorted
+result = sorted([("홍길동", 35), ("이순신", 75), ("아무개", 50)], key=lambda x: x[1], reverse=True)
+print(result)
