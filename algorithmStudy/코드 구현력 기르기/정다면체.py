@@ -1,6 +1,3 @@
-import sys
-sys.stdin = open("input.txt", "rt")
-
 n, m = map(int, input().split())
 array = [0] * (n + m + 1)
 
@@ -16,5 +13,3 @@ for i in range(n + m + 1):
 for i in range(n + m + 1):
     if maxNum == array[i]:
         print(i, end=" ")
-
-
