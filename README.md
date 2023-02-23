@@ -1,1 +1,1 @@
-# Algorithm
+# Algorithm 스터디
