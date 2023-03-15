@@ -1,6 +1,3 @@
-import sys
-sys.stdin = open("input.txt", "rt")
-
 n = int(input())
 list1 = list(map(int, input().split()))
 m = int(input())
