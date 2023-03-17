@@ -1,5 +1,3 @@
-import sys
-sys.stdin = open("input.txt", "rt")
 
 n = int(input())
 # 이차리스트 입력 받는 법 외우기
