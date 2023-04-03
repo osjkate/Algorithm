@@ -1,6 +1,3 @@
-import sys
-sys.stdin = open("input.txt", "rt")
-
 board = [list(map(int, input().split())) for _ in range(7)]
 cnt = 0
 # i가 0부터 2까지 5개씩 보려고,,
